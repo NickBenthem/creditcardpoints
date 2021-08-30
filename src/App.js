@@ -56,14 +56,14 @@ const App = () => {
 
   // Fetch Tasks
   const fetchTasks = async () => {
-    const res = await fetch(`http://${serverAddress}:${serverPort}/tasks`)
+    const res = await fetch(` https://${serverAddress}:${serverPort}/tasks`)
     const data = await res.json()
     
     return data
   }
     // Fetch Credit Cards
   const fetchCreditCards = async () => {
-    const res = await fetch(`http://${serverAddress}:${serverPort}/creditcards`)
+    const res = await fetch(` https://${serverAddress}:${serverPort}/creditcards`)
     const data = await res.json()
     return sortedByName(data)
   }
@@ -74,11 +74,11 @@ const App = () => {
   }
 
   const fetchRewardRatios = async (creditcardID) => {
-    var query = `http://${serverAddress}:${serverPort}/transferratios`
+    var query = ` https://${serverAddress}:${serverPort}/transferratios`
 
     if (creditcardID !== null)
     {
-      query = `http://${serverAddress}:${serverPort}/transferratios?from_reward_program=${creditcardID}`
+      query = ` https://${serverAddress}:${serverPort}/transferratios?from_reward_program=${creditcardID}`
     }
     const res = await fetch(query)
     const data = await res.json()
@@ -89,21 +89,21 @@ const App = () => {
 
   // Fetch Reward Programs
   const fetchRewardPrograms = async () => {
-    const res = await fetch(`http://${serverAddress}:${serverPort}/rewardprograms`)
+    const res = await fetch(` https://${serverAddress}:${serverPort}/rewardprograms`)
     const data = await res.json()
     return sortedByName(data)
   }
 
     // Fetch Reward Programs
     const fetchTravelPartners = async () => {
-      const res = await fetch(`http://${serverAddress}:${serverPort}/travelpartners`)
+      const res = await fetch(` https://${serverAddress}:${serverPort}/travelpartners`)
       const data = await res.json()
       return sortedByName(data)
         }
 
   // Fetch Task
   const fetchTask = async (id) => {
-    const res = await fetch(`http://${serverAddress}:${serverPort}/tasks/${id}`)
+    const res = await fetch(` https://${serverAddress}:${serverPort}/tasks/${id}`)
     const data = await res.json()
 
     return data
@@ -111,7 +111,7 @@ const App = () => {
 
   // Add Task
   const addTask = async (task) => {
-    const res = await fetch(`http://${serverAddress}:${serverPort}/tasks`, {
+    const res = await fetch(` https://${serverAddress}:${serverPort}/tasks`, {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
@@ -130,7 +130,7 @@ const App = () => {
 
   // Delete Task
   const deleteTask = async (id) => {
-    const res = await fetch(`http://localhost:5000/tasks/${id}`, {
+    const res = await fetch(` https://localhost:5000/tasks/${id}`, {
       method: 'DELETE',
     })
     //We should control the response status to decide if we will change the state or not.
@@ -144,7 +144,7 @@ const App = () => {
     const taskToToggle = await fetchTask(id)
     const updTask = { ...taskToToggle, reminder: !taskToToggle.reminder }
 
-    const res = await fetch(`http://localhost:5000/tasks/${id}`, {
+    const res = await fetch(` https://localhost:5000/tasks/${id}`, {
       method: 'PUT',
       headers: {
         'Content-type': 'application/json',
