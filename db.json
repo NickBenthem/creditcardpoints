@@ -1,0 +1,145 @@
+{
+  "tasks": [],
+  "rewardprograms": [
+    {
+      "id": 1,
+      "name": "American Express"
+    },
+    {
+      "id": 2,
+      "name": "Chase Ultimate Rewards"
+    },
+    {
+      "id": 3,
+      "name": "Citi ThankYouRewards"
+    },
+    {
+      "id": 4,
+      "name": "SPG Starpoints"
+    },
+    {
+      "id": 5,
+      "name": "Capital One Rewards"
+    }
+  ],
+  "creditcards": [
+    {
+      "id": 1,
+      "name": "Chase Sapphire Reserved",
+      "rewardsprogram": 2
+    },
+    {
+      "id": 4,
+      "name": "Chase Sapphire Preferred",
+      "rewardsprogram": 2
+    },
+    {
+      "id": 2,
+      "name": "American Express Platinum",
+      "rewardsprogram": 1
+    },
+    {
+      "id": 3,
+      "name": "Capital One Venture",
+      "rewardsprogram": 5
+    }
+  ],
+  "travelpartners": [
+    {
+      "id" : 1,
+      "name": "Delta Airlines"
+    },    
+    {
+      "id" : 2,
+      "name": "United Airlines"
+    },
+    {
+      "id" : 3,
+      "name": "[Meta] Most Flexible Option"
+    },
+    {
+      "id" : 4,
+      "name": "American Airlines"
+    },
+    {
+      "id" : 5,
+      "name": "Alaska Airlines"
+    },
+    {
+      "id" : 6,
+      "name": "[Meta] Best Overall Value"
+    }
+  ],
+  "transferratios" : 
+[{"id":1,"from_reward_program":1,"Transfer Partner":"AeroMexico","Min Transfer":"1,000","Transfer Ratio":"1.6","Transfer Time":"2-12 days"},
+  {"id":2,"from_reward_program":1,"Transfer Partner":"Air Canada","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":3,"from_reward_program":1,"Transfer Partner":"Alitalia","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":4,"from_reward_program":1,"Transfer Partner":"Aer Lingus","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":5,"from_reward_program":1,"Transfer Partner":"ANA","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"3 days"},
+  {"id":6,"from_reward_program":1,"Transfer Partner":"Avianca LifeMiles","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost instant"},
+  {"id":7,"from_reward_program":1,"Transfer Partner":"British Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":8,"from_reward_program":1,"Transfer Partner":"Cathay Pacific","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Up to 1 Week"},
+  {"id":9,"from_reward_program":1,"Transfer Partner":"Delta Air Lines","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":10,"from_reward_program":1,"Transfer Partner":"Emirates","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":11,"from_reward_program":1,"Transfer Partner":"Etihad Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":12,"from_reward_program":1,"Transfer Partner":"Flying Blue Air France\\/KLM","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":13,"from_reward_program":1,"Transfer Partner":"Hawaiian","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":14,"from_reward_program":1,"Transfer Partner":"Iberia","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1-3 days"},
+  {"id":15,"from_reward_program":1,"Transfer Partner":"JetBlue","Min Transfer":"250","Transfer Ratio":".8","Transfer Time":"Almost Instant"},
+  {"id":16,"from_reward_program":1,"Transfer Partner":"Qantas","Min Transfer":"500","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":17,"from_reward_program":1,"Transfer Partner":"Singapore Airlines","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1-2 days"},
+  {"id":18,"from_reward_program":1,"Transfer Partner":"Virgin Atlantic","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1-2 days"},
+  {"id":19,"from_reward_program":1,"Transfer Partner":"Choice Privileges","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":20,"from_reward_program":1,"Transfer Partner":"Hilton Honors","Min Transfer":"1,000","Transfer Ratio":"2","Transfer Time":"Almost Instant"},
+  {"id":21,"from_reward_program":1,"Transfer Partner":"Marriott Bonvoy","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":22,"from_reward_program":2,"Transfer Partner":"Aer Lingus AerClub","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":23,"from_reward_program":2,"Transfer Partner":"Air Canada Aeroplan","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":24,"from_reward_program":2,"Transfer Partner":"British Airways Executive Club","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":25,"from_reward_program":2,"Transfer Partner":"Flying Blue AIR FRANCE KLM","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1 hour"},
+  {"id":26,"from_reward_program":2,"Transfer Partner":"Emirates Skywards","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost instant"},
+  {"id":27,"from_reward_program":2,"Transfer Partner":"Iberia Plus","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":28,"from_reward_program":2,"Transfer Partner":"JetBlue","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":29,"from_reward_program":2,"Transfer Partner":"Singapore Airlines KrisFlyer","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1-2 days"},
+  {"id":30,"from_reward_program":2,"Transfer Partner":"Southwest Airlines Rapid Rewards","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":31,"from_reward_program":2,"Transfer Partner":"United Airlines MileagePlus","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":32,"from_reward_program":2,"Transfer Partner":"Virgin Atlantic Flying Club","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":33,"from_reward_program":2,"Transfer Partner":"World of Hyatt","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":34,"from_reward_program":2,"Transfer Partner":"IHG Rewards Club","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1 day"},
+  {"id":35,"from_reward_program":2,"Transfer Partner":"Marriott Rewards","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"2 days"},
+  {"id":36,"from_reward_program":3,"Transfer Partner":"Aeromexico Club Premier","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":37,"from_reward_program":3,"Transfer Partner":"Air France \\/ KLM Flying Blue","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":38,"from_reward_program":3,"Transfer Partner":"American Airlines","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":39,"from_reward_program":3,"Transfer Partner":"Avianca Airlines Lifemiles","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":40,"from_reward_program":3,"Transfer Partner":"Cathay Pacific","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":41,"from_reward_program":3,"Transfer Partner":"Emirates Skywards","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":42,"from_reward_program":3,"Transfer Partner":"Etihad Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":43,"from_reward_program":3,"Transfer Partner":"EVA Air","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"2 Days"},
+  {"id":44,"from_reward_program":3,"Transfer Partner":"JetBlue Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":45,"from_reward_program":3,"Transfer Partner":"JetPrivilege","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":46,"from_reward_program":3,"Transfer Partner":"Malaysia Airlines","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1-2 Days"},
+  {"id":47,"from_reward_program":3,"Transfer Partner":"Qantas Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instantly"},
+  {"id":48,"from_reward_program":3,"Transfer Partner":"Qatar Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"2 Days"},
+  {"id":49,"from_reward_program":3,"Transfer Partner":"Singapore Airlines","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"2 Days"},
+  {"id":50,"from_reward_program":3,"Transfer Partner":"Thai Airways","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"4 Days"},
+  {"id":51,"from_reward_program":3,"Transfer Partner":"Turkish Airlines","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"1-2 Days"},
+  {"id":52,"from_reward_program":3,"Transfer Partner":"Virgin Atlantic","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"2 Days"},
+  {"id":53,"from_reward_program":5,"Transfer Partner":"Accor Live Limitless","Min Transfer":"1,000","Transfer Ratio":".5","Transfer Time":"Up to 36 hours"},
+  {"id":54,"from_reward_program":5,"Transfer Partner":"Aeromexico Club Premier","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":55,"from_reward_program":5,"Transfer Partner":"Air Canada Aeroplan","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Almost Instant"},
+  {"id":56,"from_reward_program":5,"Transfer Partner":"Alitalia MilleMiglia","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Almost Instant"},
+  {"id":57,"from_reward_program":5,"Transfer Partner":"Avianca LifeMiles","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":58,"from_reward_program":5,"Transfer Partner":"British Airways Avios","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Almost Instant"},
+  {"id":59,"from_reward_program":5,"Transfer Partner":"Cathay Pacific Asia Miles","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Up to 36 hours"},
+  {"id":60,"from_reward_program":5,"Transfer Partner":"Emirates Skywards","Min Transfer":"1,000","Transfer Ratio":".5","Transfer Time":"Almost Instant"},
+  {"id":61,"from_reward_program":5,"Transfer Partner":"Etihad Guest","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Up to 36 hours"},
+  {"id":62,"from_reward_program":5,"Transfer Partner":"EVA Infinity MileageLands","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Up to 36 hours"},
+  {"id":63,"from_reward_program":5,"Transfer Partner":"Finnair Plus","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":64,"from_reward_program":5,"Transfer Partner":"Flying Blue AIR FRANCE KLM","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Almost Instant"},
+  {"id":65,"from_reward_program":5,"Transfer Partner":"JetBlue TrueBlue","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Almost Instant"},
+  {"id":66,"from_reward_program":5,"Transfer Partner":"Qantas Frequent Flyer","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Up to 36 hours"},
+  {"id":67,"from_reward_program":5,"Transfer Partner":"Singapore Airlines KrisFlyer","Min Transfer":"1,000","Transfer Ratio":".5","Transfer Time":"Up to 36 hours"},
+  {"id":68,"from_reward_program":5,"Transfer Partner":"TAP Air Portugal Miles&Go","Min Transfer":"1,000","Transfer Ratio":"1","Transfer Time":"Almost Instant"},
+  {"id":69,"from_reward_program":5,"Transfer Partner":"Turkish Airlines Miles&Smiles","Min Transfer":"1,000","Transfer Ratio":".75","Transfer Time":"Up to 24 hours"},
+  {"id":70,"from_reward_program":5,"Transfer Partner":"Wyndham Rewards","Min Transfer":"1,000","Transfer Ratio":"1:1","Transfer Time":"Instant"}
+]
+}
