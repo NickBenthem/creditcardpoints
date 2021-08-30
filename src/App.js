@@ -20,6 +20,8 @@ const App = () => {
   const [displayedInformation,setDisplayedInformation] = useState(["somestuff","line2","line3"])
   const [transferRatios,setTransferRatios] = useState([])
 
+  const serverAddress = "ec2-3-129-25-235.us-east-2.compute.amazonaws.com"
+  const serverPort = 5000
 
   useEffect(() => {
     const getTasks = async () => {
@@ -54,14 +56,14 @@ const App = () => {
 
   // Fetch Tasks
   const fetchTasks = async () => {
-    const res = await fetch('http://localhost:5000/tasks')
+    const res = await fetch(`http://${serverAddress}:${serverPort}/tasks`)
     const data = await res.json()
     
     return data
   }
     // Fetch Credit Cards
   const fetchCreditCards = async () => {
-    const res = await fetch('http://localhost:5000/creditcards')
+    const res = await fetch(`http://${serverAddress}:${serverPort}/creditcards`)
     const data = await res.json()
     return sortedByName(data)
   }
@@ -72,11 +74,11 @@ const App = () => {
   }
 
   const fetchRewardRatios = async (creditcardID) => {
-    var query = 'http://localhost:5000/transferratios'
+    var query = `http://${serverAddress}:${serverPort}/transferratios`
 
     if (creditcardID !== null)
     {
-      query = `http://localhost:5000/transferratios?from_reward_program=${creditcardID}`
+      query = `http://${serverAddress}:${serverPort}/transferratios?from_reward_program=${creditcardID}`
     }
     const res = await fetch(query)
     const data = await res.json()
@@ -87,21 +89,21 @@ const App = () => {
 
   // Fetch Reward Programs
   const fetchRewardPrograms = async () => {
-    const res = await fetch('http://localhost:5000/rewardprograms')
+    const res = await fetch(`http://${serverAddress}:${serverPort}/rewardprograms`)
     const data = await res.json()
     return sortedByName(data)
   }
 
     // Fetch Reward Programs
     const fetchTravelPartners = async () => {
-      const res = await fetch('http://localhost:5000/travelpartners')
+      const res = await fetch(`http://${serverAddress}:${serverPort}/travelpartners`)
       const data = await res.json()
       return sortedByName(data)
         }
 
   // Fetch Task
   const fetchTask = async (id) => {
-    const res = await fetch(`http://localhost:5000/tasks/${id}`)
+    const res = await fetch(`http://${serverAddress}:${serverPort}/tasks/${id}`)
     const data = await res.json()
 
     return data
@@ -109,7 +111,7 @@ const App = () => {
 
   // Add Task
   const addTask = async (task) => {
-    const res = await fetch('http://localhost:5000/tasks', {
+    const res = await fetch(`http://${serverAddress}:${serverPort}/tasks`, {
       method: 'POST',
       headers: {
         'Content-type': 'application/json',
