@@ -20,7 +20,7 @@ const App = () => {
   const [displayedInformation,setDisplayedInformation] = useState(["somestuff","line2","line3"])
   const [transferRatios,setTransferRatios] = useState([])
 
-  const serverAddress = "ec2-3-129-25-235.us-east-2.compute.amazonaws.com"
+  const serverAddress = "localhost"
   const serverPort = 5000
 
   useEffect(() => {
